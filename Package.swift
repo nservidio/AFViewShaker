@@ -13,7 +13,8 @@ let package = Package(
     targets: [
         .target(
             name: "AFViewShaker",
-            path: "AFViewShaker"
+            path: "AFViewShaker",
+            publicHeadersPath: "."
         )
     ]
 )
